@@ -33,7 +33,5 @@ def find_valid_calls(planeteer_calls)
        puts call == valid_calls
     else puts nil
   end
-
-
-
+  planeteer_calls
 end
