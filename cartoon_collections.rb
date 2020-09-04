@@ -29,7 +29,7 @@ def find_valid_calls(planeteer_calls)
 
 planeteer_calls.detect do |el|
   if valid_calls.include(el)
-    puts planeteer_calls
+    el
   end
 end
 end
