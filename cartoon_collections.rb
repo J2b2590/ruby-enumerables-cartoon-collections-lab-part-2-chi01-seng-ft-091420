@@ -30,7 +30,5 @@ def find_valid_calls(planeteer_calls)
 match = []
   planeteer_calls.each do |call|
      puts "#{valid_calls}".include?call
-       puts call
-    
   end
 end
