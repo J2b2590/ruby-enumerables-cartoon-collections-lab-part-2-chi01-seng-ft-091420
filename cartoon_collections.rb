@@ -28,6 +28,6 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
 
   planeteer_calls.map { |match|
-    valid_calls.collect(match)
+    valid_calls.collect
   }
 end
