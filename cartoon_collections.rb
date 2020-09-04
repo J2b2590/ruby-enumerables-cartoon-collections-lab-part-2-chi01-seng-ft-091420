@@ -31,7 +31,8 @@ match = []
   planeteer_calls.each do |call|
      if "#{valid_calls}".include?call
        puts "#{valid_calls}" == call
-     else puts nil
+     elsif "#{valid_calls}" != call
+        puts nil
      end
   end
 end
