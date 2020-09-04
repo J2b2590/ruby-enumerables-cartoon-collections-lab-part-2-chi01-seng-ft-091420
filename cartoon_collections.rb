@@ -29,8 +29,8 @@ def find_valid_calls(planeteer_calls)
 
 
   if planeteer_calls.include?("#{valid_calls}")
-    puts nil
-  else puts planeteer_calls[0]
+    puts planeteer_calls[0]
+  else puts nil
   end
 
 
