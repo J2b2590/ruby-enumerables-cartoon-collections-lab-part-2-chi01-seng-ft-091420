@@ -29,7 +29,7 @@ def find_valid_calls(planeteer_calls)
 
 match = []
   planeteer_calls.each do |call|
-     if "#{call}".include?"#{valid_calls}"
+     if call.include?"#{valid_calls}"
        puts call
     else puts nil
     end
