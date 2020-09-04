@@ -28,7 +28,7 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
 
   if planeteer_calls.select { |match| match.include?("#{valid_calls}")  }
-    puts match
+    
   else puts nil
 end
 end
