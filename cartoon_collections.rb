@@ -29,6 +29,7 @@ def find_valid_calls(planeteer_calls)
 
 
   planeteer_calls.include? { |string| string == valid_calls  }
+  puts planeteer_calls
 
 
 end
