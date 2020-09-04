@@ -30,9 +30,9 @@ def find_valid_calls(planeteer_calls)
 
   planeteer_calls.each do |call|
     puts "#{call} this is planeteer_calls"
-
+    puts "#{valid_calls} these are valid_calls" 
   end
-  puts "#{valid_calls} these are valid_calls" 
+  
 
 
 end
