@@ -27,6 +27,5 @@ def find_valid_calls(planeteer_calls)
   # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above
   # Return the first valid call found, or return nil if no valid calls are found
 
-puts  planeteer_calls.sort!
-puts valid_calls.sort!
+valid_calls.map { |match| match.any?"#{planeteer_calls}"  }
 end
