@@ -29,7 +29,7 @@ def find_valid_calls(planeteer_calls)
 
 
   planeteer_calls.include?("#{valid_calls}")
-  puts planeteer_calls
+  
 
 
 end
