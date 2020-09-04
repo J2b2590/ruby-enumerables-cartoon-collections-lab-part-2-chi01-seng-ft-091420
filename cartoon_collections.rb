@@ -27,7 +27,7 @@ def find_valid_calls(planeteer_calls)
   # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above
   # Return the first valid call found, or return nil if no valid calls are found
 
-if valid_calls.zip(planeteer_calls).map { |a,b| a == b  } == true
+if valid_calls.zip(planeteer_calls).map { |a,b| a == b } == true
 puts valid_calls
 else
   puts nil
