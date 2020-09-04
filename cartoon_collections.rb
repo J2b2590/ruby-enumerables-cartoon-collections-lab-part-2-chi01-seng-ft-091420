@@ -29,7 +29,5 @@ def find_valid_calls(planeteer_calls)
 
 if valid_calls.zip(planeteer_calls).map { |a,b| a == b } == true
 puts valid_calls
-else
-  puts nil
 end
 end
