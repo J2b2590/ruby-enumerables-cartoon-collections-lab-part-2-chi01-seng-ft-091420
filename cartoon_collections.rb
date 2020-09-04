@@ -27,10 +27,11 @@ def find_valid_calls(planeteer_calls)
   # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above
   # Return the first valid call found, or return nil if no valid calls are found
 
-if valid_calls.include?(planeteer_calls) == true
-  puts valid calls
-else
-  puts nil
+planeteer_calls.detect do |el|
+  if valid_calls.include(el)
+    puts planeteer_calls
+  end
+end
 end
 
 end
