@@ -32,7 +32,7 @@ def find_valid_calls(planeteer_calls)
     puts "#{call} this is planeteer_calls"
 
   end
-  puts valid_calls 
+  puts "#{valid_calls} these are valid_calls" 
 
 
 end
