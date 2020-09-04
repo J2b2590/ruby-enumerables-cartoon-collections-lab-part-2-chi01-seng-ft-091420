@@ -33,5 +33,3 @@ planeteer_calls.detect do |el|
   end
 end
 end
-
-end
