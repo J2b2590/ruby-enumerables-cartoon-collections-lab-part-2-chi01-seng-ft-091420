@@ -29,5 +29,7 @@ def find_valid_calls(planeteer_calls)
 
   if planeteer_calls.include?(valid_calls)
     puts planeteer_calls
+  else
+    puts nil
   end
 end
